@@ -1,6 +1,6 @@
 # npmdoc-react-native-icons
 
-#### api documentation for  [react-native-icons (v0.7.1)](https://github.com/corymsmith/react-native-icons)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-icons.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-icons) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-icons.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-icons)
+#### basic api documentation for  [react-native-icons (v0.7.1)](https://github.com/corymsmith/react-native-icons)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-icons.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-icons) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-icons.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-icons)
 
 #### Use 1000's of icon fonts easily in your React Native apps.
 
@@ -21,11 +21,24 @@
 ```json
 
 {
-    "name": "react-native-icons",
-    "version": "0.7.1",
+    "author": {
+        "name": "Cory Smith"
+    },
+    "bugs": {
+        "url": "https://github.com/corymsmith/react-native-icons/issues"
+    },
+    "dependencies": {},
     "description": "Use 1000's of icon fonts easily in your React Native apps.",
-    "main": "index",
-    "author": "Cory Smith <cory.m.smith@gmail.com>",
+    "devDependencies": {
+        "react-native": ">= 0.12.x || 0.12.0-rc || 0.13.x || 0.13.0-rc || 0.14.x || 0.14.0-rc || 0.15.0-rc || 0.15.x || 0.16.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "a05c6c87bff7bfd883903bb9b7156f5ba568f977",
+        "tarball": "https://registry.npmjs.org/react-native-icons/-/react-native-icons-0.7.1.tgz"
+    },
+    "gitHead": "37f5c64ccc2a929f027ffc3f3b104071fdce07f6",
+    "homepage": "https://github.com/corymsmith/react-native-icons",
     "keywords": [
         "react",
         "icons",
@@ -43,18 +56,24 @@
         "font",
         "fonts"
     ],
-    "devDependencies": {
-        "react-native": ">= 0.12.x || 0.12.0-rc || 0.13.x || 0.13.0-rc || 0.14.x || 0.14.0-rc || 0.15.0-rc || 0.15.x || 0.16.0"
+    "main": "index",
+    "maintainers": [
+        {
+            "name": "corymsmith"
+        }
+    ],
+    "name": "react-native-icons",
+    "optionalDependencies": {},
+    "react-native-module": {
+        "podfile": "react-native-icons.podspec"
     },
-    "homepage": "https://github.com/corymsmith/react-native-icons",
-    "bugs": "https://github.com/corymsmith/react-native-icons/issues",
     "repository": {
         "type": "git",
         "url": "git://github.com/corymsmith/react-native-icons.git"
     },
-    "react-native-module": {
-        "podfile": "react-native-icons.podspec"
-    }
+    "scripts": {},
+    "version": "0.7.1",
+    "bin": {}
 }
 ```
 
